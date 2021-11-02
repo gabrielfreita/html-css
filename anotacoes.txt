@@ -1,0 +1,9 @@
+&lt; tag &gt; //mostra a tag no documento
+&simb // mostra o símbolo
+&#xemoji // mostra o emoji
+
+tag:
+<p></p> // parágrafo
+<br> // pula linha
+<h1></h1> // linha alta nível 1
+<hr> // linha separativa
