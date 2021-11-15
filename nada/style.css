@@ -1,0 +1,10 @@
+p {
+    box-shadow: 1px 1px 10px black;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+body {
+    background-color: aquamarine;
+    color: black;
+}
