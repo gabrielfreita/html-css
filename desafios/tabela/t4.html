@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAbela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 600px;
+            height: 300px;
+        }
+
+        th {
+            background-color: gray;
+            color: white;
+            border: 1px solid black;
+            font-size: larger;
+        }
+
+        td {
+            background-color: white;
+            border: 1px solid black;
+        }
+
+        td.tipo {
+            text-align: center;
+            font-weight: bolder;
+            font-size: larger;
+        }
+
+        td.media {
+            background-color: gray;
+            color: white;
+            text-align: center;
+        }
+
+        td.nota {
+            text-align: center;
+        }
+
+        th.tm {
+            text-align: left;
+        }
+
+        td.materia {
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th class="cinza" rowspan="2">Área</th>
+            <th class="cinza" rowspan="2">Disciplinas</th>
+            <th class="cinza" colspan="2">Notas</th>
+            <th class="cinza" rowspan="2">Média</th>
+        </tr>
+        <tr>
+            <th class="cinza">Nota 1</th>
+            <th class="cinza">Nota 2</th>
+        </tr>
+        <tr>
+            <td rowspan="4" class="tipo">Exatas</td>
+            <td class="materia">Matemática</td>
+            <td class="nota">0.0</td>
+            <td class="nota">0.0</td>
+            <td class="nota">0.0</td>
+        </tr>
+        <tr>
+            <td class="materia">Física</td>
+            <td class="nota">0.0</td>
+            <td class="nota">0.0</td>
+            <td class="nota">0.0</td>
+        </tr>
+        <tr>
+            <td class="materia">Química</td>
+            <td class="nota">0.0</td>
+            <td class="nota">0.0</td>
+            <td class="nota">0.0</td>
+        </tr>
+        <tr>
+            <td class="materia">Biologia</td>
+            <td class="nota">0.0</td>
+            <td class="nota">0.0</td>
+            <td class="nota">0.0</td>            
+        </tr>
+        <tr>
+            <th class="tm" colspan="4">Média de Exatas</th>
+            <td class="media">0.0</td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="tipo">Humanas</td>
+            <td class="materia">História</td>
+            <td class="nota">0.0</td>
+            <td class="nota">0.0</td>
+            <td class="nota">0.0</td> 
+        </tr>
+        <tr>
+            <td class="materia">Geografia</td>
+            <td class="nota">0.0</td>
+            <td class="nota">0.0</td>
+            <td class="nota">0.0</td> 
+        </tr>
+        <tr>
+            <th class="tm"colspan="4">Média de Humanas</th>
+            <td class="media">0.0</td>
+        </tr>
+    </table>
+</body>
+</html>
